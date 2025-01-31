@@ -1,0 +1,221 @@
+*{
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+.background{
+  background-color: rgb(192, 10, 10);
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  background-color: white;
+  font-size: 2.1rem;
+  font-weight: bold;
+  color: rgb(157, 4, 4);
+  text-align: center;
+  border-radius: 50px;
+  height: 45px;
+  width: 45px;
+  margin-left: 6%;
+  margin-top: 0.5%;
+}
+.btnBox{
+  width: 50vh;
+}
+.btnn{
+  font-size: 1.2rem;
+  padding: 2%;
+  margin: 3%;
+  font-weight: bold;
+  color: black;
+  background: transparent;
+  border: none;
+}
+.btnn:hover{
+  box-shadow: 2px 2px 3px 1px black;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+.imgFiltercard{
+  height: 12vh;
+  border-radius: 5px;
+  width: 15vh; 
+}
+.Card1Box{
+  display: flex;
+  padding: 3% 0% 4% 5%;
+}
+.CradMainBox{
+  margin-bottom: 5%;
+  width: 100vh;
+  height: 31vh;
+  box-shadow: 3px 3px 4px 2px gray;
+}
+.Cardtxt1{
+  margin-left: 15%;
+}
+.Card2Box{
+  display: flex;
+  padding: 3% 0% 3% 5%;
+}
+.Cardtxt3{
+  margin-left: 15%;
+}
+.cardh4{
+  margin-top: 5%; 
+}
+hr{
+  margin: 0% 2% 0% 2%;
+}
+.CradMainBox:hover{
+  hr{
+    border: 1px solid black;
+  }
+}
+.InfoFilterBox{
+  height: 75vh;
+  width: 33vh;
+  padding: 2%;
+  box-shadow: 3px 3px 4px 2px gray;
+}
+.FiltermainBox{
+  display: flex;
+  margin-top: 1%;
+}
+.FilterBox{
+  margin: 2% 0 0 6%;
+}
+.optionsdetails{
+  margin-left: 7%;
+}
+.btnnn{
+  font-size: 1rem;
+  padding: 1%;
+  background-color: transparent;
+  color: rgb(48, 110, 234);
+  margin-left: 2%;
+  border-radius: 5px;
+  border: 1px solid rgb(4, 4, 189);
+}
+.btnnn:hover{
+  color: white;
+  background-color: rgb(136, 169, 235);
+}
+.btnnnBox{
+  margin-left: 35%;
+}
+.h2Filter{
+  margin-bottom: 8%;
+}
+.h4Filter{
+  margin-top: 7%;
+  margin-bottom: 3%;
+}
+label{
+  font-size: 1.1rem;
+  margin-left: 3%;
+}
+input[type = 'radio'],input[type ='checkbox']{
+  height: 15px;
+  width: 15px;
+  margin-top: 2%;
+}
+.img1 {
+  height: 55vh;
+  width: 100%;
+  position: relative;
+}
+.btngrp{
+  position: absolute;
+  top: 3%;
+  right: 5%;
+  width: 40vh;
+}
+.btn{
+  font-size: 1.2rem;
+  padding: 2%;
+  margin: 3%;
+  font-weight: bold;
+  color: white;
+  background: transparent;
+  border: none;
+}
+.btn:hover{
+  box-shadow: 2px 2px 3px 1px white;
+  border-radius: 10px;
+  border: 2px solid white;
+}
+.p{
+  margin-left: 44%;
+  background-color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  color: red;
+  text-align: center;
+  border-radius: 50px;
+  height: 60px;
+  width: 60px;
+  margin-bottom: 0%;
+}
+.mainBox{
+  position: absolute;
+  top: 17%;
+  right: 30%;
+}
+.h1{
+  color: white;
+}
+
+.search{
+  font-size: 1.2rem;
+  padding: 1.4%;
+  margin: 4% 4% 0% 4%;
+}
+.search2{
+  width: 42vh; 
+}
+.fa-solid{
+  position: absolute;
+  left: 41%;
+  top: 82%;
+  font-size: 1.3rem;
+}
+.search2::placeholder{
+  padding-left: 10%;
+}
+.boxquick{
+  margin-top: 1%;
+  padding-left: 4%;
+}
+.Hquick{
+  margin-bottom: 0%;
+}
+.Pquick{
+  margin-top: 0.5%;
+}
+.img2{
+  width: 20vh;
+}
+.card{
+  display: flex;
+  width: 50vh;
+  box-shadow: 3px 3px 3px 1px gray;
+}
+.txt{
+  margin: 0% 2% 8% 8%;
+  padding-right: 1%;
+}
+.h3h{
+  margin-bottom: 0;
+}
+.p3p{
+  margin-top: 1%;
+}
+.quicksearchitem{
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin-top: 2.5%;
+  margin-bottom: 3%;
+}

@@ -1,0 +1,119 @@
+*{
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+.backgroun{
+  background-color: #c00a0a;
+  display: flex;
+  justify-content: space-between;
+}
+.log{
+  background-color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(157, 4, 4);
+  text-align: center;
+  border-radius: 50px;
+  height: 45px;
+  width: 45px;
+  margin-left: 6%;
+  margin-top: 0.5%;
+}
+.btnnnBox{
+  width: 50vh;
+}
+.btnn{
+  font-size: 1.2rem;
+  padding: 2%;
+  margin: 3%;
+  font-weight: bold;
+  color: black;
+  background: transparent;
+  border: none;
+}
+.btnn:hover{
+  box-shadow: 2px 2px 3px 1px black;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+
+
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(255, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.header-logo {
+  width: 25px;
+  height: 25px;
+  /* margin: auto; */
+  padding: 22px 42px 28px 18px;
+  border: solid 1px #707070;
+  background-color: white;
+  border-radius: 50%;
+  font-family: poppins;
+  font-size: 42px;
+  font-weight: 540;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 5px;
+  letter-spacing: normal;
+  color: red;
+  /* position: absolute;
+  top: 11px;
+  left: 160px; */
+  margin-left: 350px; 
+
+}
+
+.login {
+  background-color: transparent;
+  border: red;
+  color: white;
+  font-size: 1rem;
+  
+  /* margin-left: 1090x; */
+  /* margin-top: 15px; */
+  padding: 5px;
+}
+.inputPas{
+
+}
+.Facebook{
+  width: 80%;
+  padding: 1px;
+  margin: 0.5em 0 0 1.5em;
+}
+
+.buttonDiv button{
+  width: 100%;
+  background-color: rgb(175, 0, 0);
+  font-weight: bold;
+}
+.buttonDiv p{
+  font-weight: bold;
+  padding: 2px;
+}
+.GooglePas{
+  margin-left: 12%;
+}
+.inputPart{
+  font-size: 1.2rem;
+  padding: 0.3em;
+  margin-top: 2%;
+  width: 100%;
+}
+.inputPart:hover{
+  border: 3px solid blue;
+}
+.boss input{
+  margin-right: 0;
+  padding-right: 0;
+}

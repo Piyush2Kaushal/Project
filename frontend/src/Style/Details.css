@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#bt1:hover{
+  background-color: red;
+}
+/* .detail {
+  height: 110vh;
+  width: 100%;
+  background-repeat: no-repeat, repeat;
+  background-blend-mode: screen;
+} */
+
+/* .heading {
+  font-family: poppins;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  text-align: left;
+  color: #192f60;
+  margin: 20px 0;
+  letter-spacing: normal;
+} */
+
+/* .button {
+    background-color: red;
+    border: red;
+    color: white; */
+/* font-size: 1rem; */
+/* margin-left: 1000px;
+    margin-top: 35px; */
+/* } */
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.detailsHeading {
+  font-family: poppins;
+  font-size: 36px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  margin-left: 10px;
+  color: #192f60;
+  letter-spacing: normal;
+}
+
+.order {
+  font-weight: bold;
+  padding: 0 1em 0 1em;
+  border-radius: 10px;
+  color:  white;
+  background: rgb(137, 10, 10);
+  margin-right: 2rem;
+}
+.order:hover{
+  box-shadow: 1px 1px 2px 1px gray;
+}
+
+.my-tabs__tab{
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 18px;
+  /* background-color: rgb(228, 219, 202); */
+  margin-right: 5px;
+  border: none;
+  outline: none;
+}
+
+
+.my-tabs__tab--selected {
+  color: black;
+  border-bottom: 4px solid red;
+}
+
+.my-tabs__tab-panel {
+  padding: 0.5em 0 0.5em 2em;
+  border: 1px solid blanchedalmond;
+  border-top: none;
+}
+
+.my-tabs__tab-list{
+  border-bottom: 1px solid beige;
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+.blurred-content {
+  filter: blur(5px);
+  pointer-events: none;
+  user-select: none;
+  transition: filter 0.3s ease;
+}
+.menuItemBox{ 
+  width: 95%;
+  margin: auto;
+  border: 2px solid rebeccapurple;
+  border-radius: 20px;
+  margin-top: 2vh;
+}
+.first{
+  height: 20vh;
+}
+.second{
+  height: 65vh;
+}
+.btnClose{
+  padding: 0.01rem ;
+  width: 10vh;
+  position: absolute;
+  right: 8%;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.imgMain{
+  border-top-left-radius: 18px; /* Rounds the top-left corner */
+  border-top-right-radius: 18px; /* Rounds the top-right corner */
+  border-bottom-left-radius: 0; /* Keeps the bottom-left corner square */
+  border-bottom-right-radius: 0; /* Keeps the bottom-right corner square */
+  width: 100%;
+  height: 55%;
+}
+.Foodtxt{
+  position: absolute;
+  color: white;
+  top: 6%;
+  right: 32%;
+  font-family: serif;
+}
+.name {
+  font-size: 1.6rem;
+  color: black;
+  font-family:cursive;
+  font-style: italic;
+  text-align: center;
+ 
+}
+.txttt{
+  color: black;
+  margin-left: 37.5%;
+}
+.imgFirst{
+  border-radius: 50px;
+  height: 9vh;
+  width: 4.5vw;
+  position: absolute;
+  top: 10%;
+  left: 3%;
+  border: 3px solid black;
+}
+.pui{
+  margin-left: 22%;
+  margin-top: 0.7rem;
+}
+.price{
+  position: absolute;
+  right: 4%;
+  top: 18%;
+}
+.hr{
+  width: 90%;
+  margin: auto;
+  margin-top: 3%;
+}
+.pay{
+  display: flex;
+  margin-top: 1rem;
+  justify-content: space-evenly;
+}
+.pay button{
+  padding: 0.3rem 3rem 0.3rem 3rem;
+  font-size: 1.1rem;
+  background-color: rgb(251, 87, 27);
+  color: white;
+  border-radius: 20px;
+}
+.btnprice{
+  position: absolute;
+  right:4%;
+  top: 60%;
+  padding: 0.1rem 1rem 0.1rem 1rem;
+}
+.btnpricecon{
+  position: absolute;
+  right:4%;
+  top: 60%;
+}
+.btnpriceco{
+  padding:  0.1rem 0.3rem 0.1rem 0.3rem;
+  margin-right: 0.2rem;
+  margin-left: 0.2rem;
+}
+.ntb{
+  background-color: rgb(255, 128, 81);
+  color: white;
+}

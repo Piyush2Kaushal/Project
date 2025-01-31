@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  margin-right: 10%;
+  color: white;
+  margin-top: 1%;
+}
+
+.btn1:hover {
+  color: rgb(243, 238, 238);
+}
+
+header {
+  background-image: linear-gradient(rgba(34, 33, 33, 0.5), rgba(39, 36, 36, 0.5)), url(../Component/Background.jpg);
+  height: 65vh;
+  /* height: 500px; */
+  /* width: 100%; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: screen;
+}
+
+.logo {
+  background-color: white;
+  border-radius: 50%;
+  color: rgb(250, 14, 14);
+  font-size: 2.5rem;
+  text-align: center;
+  line-height: 100%;
+  display: inline-block;
+  width: 55px;
+  height: 60px;
+  margin-top: 11%;
+  margin-left: 47%;
+  padding-top: 5px;
+}
+
+h1 {
+  color: white;
+  margin-top: 1%;
+}
+
+.cont1 {
+  color: aliceblue;
+  width: 58%;
+
+}
+
+.loaction {
+  background-color: white;
+  margin-right: 1%;
+  margin-left: 1.5%;
+  margin-top: 1.5%;
+  height: 6vh;
+
+}
+
+.search {
+  height: 7vh;
+  background-color: white;
+  margin-left: 1.5%;
+  margin-right: 1%;
+  margin-top: 1.5%;
+  padding-left: 45px;
+
+}
+
+.cont2 {
+  margin-top: 2%;
+}
+
+.card1 {
+  display: flex;
+}
+
+/* .card {
+    box-shadow: 2px 2px 5px 1px grey;
+  } */
+
+/* .card-img {
+    max-width: 100%;
+    
+    object-fit: cover;
+    height: 100%;
+    padding: 2px;
+  } */
+
+
+
+/* .searchIcon {
+    position: absolute;
+    left: 0px;
+    top: 345px;
+
+  } */
+.bottomSection {
+  margin: 50px 80px 80px 80px;
+
+
+}
+/* 
+.container2 {
+  display: flex;
+} */
+
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.searchIcon {
+  position: absolute;
+  left: 14px;
+  top: 12px;
+}
+
+.card {
+  box-shadow: 2px 2px 6px 1px gray;
+}
+
+/* @media all and (max-width: 450px) {
+    .searchOption {
+      flex-direction: column;
+
+    }
+  } */
